@@ -1,0 +1,21 @@
+/*
+Theme Name: niuno-master
+Theme URI: http://niunomas.org.ve
+Author: Rosa Parks
+Author URI: http://niunomas.org.ve
+Desciption: Ni Uno Mas Venezuela
+Version: 1.0
+Template: twentyseventeen
+Text Domain: niuno
+*/
+
+/** 1- HEADER **/
+.navbar-main{
+	float: right;
+}
+
+.menu ul li{
+	display: inline-block;
+}
+
+/** END HEADER **/
