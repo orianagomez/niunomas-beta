@@ -14,6 +14,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0 user-scalable=no">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
