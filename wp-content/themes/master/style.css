@@ -110,3 +110,15 @@ h1{
 }
 
 /** END HOME **/
+
+/** 3- SINGLE **/
+
+.single h1{
+	font-size: 28px;
+}
+
+.single .pic{
+	width: 350px;
+}
+
+/** END SINGLE **/
