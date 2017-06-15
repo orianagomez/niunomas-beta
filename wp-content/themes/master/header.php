@@ -26,7 +26,7 @@
 			<?php //if(is_page_template('contact.php')){?>
 				<div class="navbar-header">
 					<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-						<?php echo bloginfo( 'name' );?>
+						<?php //echo bloginfo( 'name' );?>
 					</a>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-pricipal">
 					      	<span class="icon-bar"></span>

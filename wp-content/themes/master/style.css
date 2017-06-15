@@ -16,6 +16,7 @@ body{
 	display: flex;
 	align-items: center;
 	font-family: 'Playfair Display', serif;
+	color: gray;
 }
 
 .container{
@@ -27,6 +28,7 @@ h1{
 	font-family: 'Cinzel', serif !important;
 	font-size: 24px;
 	margin-bottom: 35px;
+	color: #000;
 }
 
 .content{
@@ -36,6 +38,7 @@ h1{
 
 .home{
 	background: #3c3c3c;
+	flex-direction: column;
 }
 
 /** END GENERAL **/
@@ -55,10 +58,11 @@ h1{
 	margin: 10px 10px;
 }
 
-.menu ul li a:hover{
+.nav li a:hover{
 	text-decoration: none;
 	text-shadow: 0px 0px 6px rgba(199, 199, 199, 0.7);
 	color: rgba(0,0,0,0.6);
+	background: none;
 }
 
 .navbar {
@@ -81,8 +85,28 @@ h1{
 	box-shadow: 0px 1px 5px 0px rgba(31, 31, 31, 0.5);
 }
 
-.home .menu ul li a:hover{
+.home .nav li a:hover{
 	color: rgba(255, 255, 255, 0.6);
 }
 
 /** END HEADER **/
+
+/** 2- HOME **/
+.wall a{
+	color: gray;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+}
+
+.wall a:hover{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.wall .col-lg-2{
+	padding: 5px;
+    text-align: center;
+}
+
+/** END HOME **/
