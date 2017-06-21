@@ -11,7 +11,7 @@
 		if ( $logos ):
 			$i = 1;
 			foreach ($logos as $ong) { ?>
-				<div class="col-lg-3">
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 					<a href="<?php echo $ong['link']; ?>"><img width="200" src="<?php echo $ong['icono']; ?>"></a>
 				</div>
 			<?php if($i % 4 == 0) : ?>

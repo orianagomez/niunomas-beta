@@ -26,13 +26,14 @@
 			<?php //if(is_page_template('contact.php')){?>
 				<div class="navbar-header">
 					<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-						<?php //echo bloginfo( 'name' );?>
+						Ni uno más
 					</a>
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-pricipal">
-					      	<span class="icon-bar"></span>
-					      	<span class="icon-bar"></span>
-					      	<span class="icon-bar"></span>
-					</button>
+					<div class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main">
+					    <span></span>
+  						<span></span>
+  						<span></span>
+  						<span></span>
+					</div>
 				</div>
 				<div class="collapse navbar-collapse navbar-main col-xs-12">
 					<?php wp_nav_menu(
@@ -42,5 +43,8 @@
 							'theme_location' => 'main'));
 					?>
 				</div>
+		</nav>
+		<nav id="slide-menu">
+			
 		</nav>
 	</header>
