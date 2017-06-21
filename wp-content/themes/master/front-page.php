@@ -12,7 +12,7 @@
 	if ( $names->have_posts() ) :
 		$i = 1;
 		while ( $names->have_posts() ) : $names->the_post(); ?>
-			<div class="col-lg-2 col-md-3">
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
 				<a href="<?php the_permalink(); ?>"><?php the_title();?></a>		
 			</div>
 			<?php if($i % 6 == 0) : ?>
