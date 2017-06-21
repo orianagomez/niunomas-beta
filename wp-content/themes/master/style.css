@@ -20,7 +20,7 @@ body{
 }
 
 .container{
-    margin-top: 70px;
+    margin: 60px auto;
     max-width: 1920px;
 }
 
@@ -51,6 +51,10 @@ h1{
 /** END GENERAL **/
 
 /** 1- HEADER **/
+header{
+	transition: top 0.2s ease-in-out;
+}
+
 .navbar-main{
 	float: right;
 }
@@ -169,6 +173,10 @@ h1{
   left: 50%;
 }
 
+.nav-up {
+    top: -60px;
+}
+
 @media screen and (max-width: 768px) {
 
 	.nav li a{
@@ -194,23 +202,6 @@ h1{
 .wall .col-lg-2{
 	padding: 5px;
     text-align: center;
-}
-
-.home header {
-    -webkit-transition-duration: .5s;
-    transition-duration: .5s;
- 
-    -webkit-transition-timing-function: cubic-bezier( 0.215, 0.610, 0.355, 1.000 );
-    transition-timing-function: cubic-bezier( 0.215, 0.610, 0.355, 1.000 );
- 
-    -webkit-transition-property: -webkit-transform;
-    transition-property: transform;
-}
- 
-.home header.header--hidden{
-    -webkit-transform: translateY( -100% );
-    -ms-transform: translateY( -100% );
-    transform: translateY( -100% );
 }
 
 @media screen and (max-width: 480px){
